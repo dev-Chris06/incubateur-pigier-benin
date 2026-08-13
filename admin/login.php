@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
 
             <div class="login-footer">
-                <a href="<?= SITE_URL ?>/public/index.php">← Retour au site</a>
+                <a href="<?= SITE_URL ?>/">← Retour au site</a>
             </div>
         </div>
     </div>
