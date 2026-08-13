@@ -92,7 +92,7 @@ foreach ($personnes as $personne) {
     <section class="cta-final">
         <div class="container">
             <h2 class="cta-titre">Rejoignez l'aventure entrepreneuriale</h2>
-            <a href="<?= SITE_URL ?>/public/postuler.php" class="btn btn-primaire">Postuler maintenant</a>
+            <a href="<?= SITE_URL ?>/postuler" class="btn btn-primaire">Postuler maintenant</a>
         </div>
     </section>
 </main>

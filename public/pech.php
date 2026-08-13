@@ -143,7 +143,7 @@ try {
     <section class="cta-final">
         <div class="container">
             <h2 class="cta-titre">Participez à la prochaine édition du PECH</h2>
-            <a href="<?= SITE_URL ?>/public/postuler.php" class="btn btn-primaire">Postuler maintenant</a>
+            <a href="<?= SITE_URL ?>/postuler" class="btn btn-primaire">Postuler maintenant</a>
         </div>
     </section>
 </main>

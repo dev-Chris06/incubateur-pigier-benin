@@ -22,7 +22,7 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
                 <h1 class="hero-titre"><?= $hero_titre ? echapper($hero_titre) : 'Le 1er incubateur universitaire dédié aux étudiants de PIGIER-BÉNIN' ?></h1>
                 <p class="hero-soustitre"><?= $hero_soustitre ? echapper($hero_soustitre) : 'Un espace exclusif pour transformer vos idées en entreprises.' ?></p>
                 <div class="hero-cta">
-                    <a href="<?= SITE_URL ?>/public/postuler.php" class="btn btn-primaire">Postuler</a>
+                    <a href="<?= SITE_URL ?>/postuler" class="btn btn-primaire">Postuler</a>
                     <a href="#accueil-programme" class="btn btn-secondaire">Découvrir le programme</a>
                 </div>
             </div>
@@ -142,7 +142,7 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
             <h2 class="section-titre">Le PECH</h2>
             <p class="apercu-description">Le Pigier Entrepreneurship Challenge est le concours annuel d'incubation et de financement qui propulse les initiatives entrepreneuriales des étudiants.</p>
             <div class="apercu-cta">
-                <a href="<?= SITE_URL ?>/public/pech.php" class="btn btn-primaire">Voir les projets accompagnés</a>
+                <a href="<?= SITE_URL ?>/pech" class="btn btn-primaire">Voir les projets accompagnés</a>
             </div>
         </div>
     </section>
@@ -151,7 +151,7 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
     <section class="cta-final">
         <div class="container">
             <h2 class="cta-titre">Une idée de projet ? Rejoignez l'incubateur.</h2>
-            <a href="<?= SITE_URL ?>/public/postuler.php" class="btn btn-primaire">Postuler</a>
+            <a href="<?= SITE_URL ?>/postuler" class="btn btn-primaire">Postuler</a>
         </div>
     </section>
 </main>

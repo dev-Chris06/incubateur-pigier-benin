@@ -216,7 +216,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $candidatures_ouvertes) {
 
                     <div class="postuler-contact">
                         <p>Pour plus d'informations, n'hésitez pas à nous contacter :</p>
-                        <a href="<?= SITE_URL ?>/public/contact.php" class="btn btn-secondaire">Nous contacter</a>
+                        <a href="<?= SITE_URL ?>/contact" class="btn btn-secondaire">Nous contacter</a>
                     </div>
                 </div>
             <?php endif; ?>

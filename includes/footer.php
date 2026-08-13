@@ -12,12 +12,12 @@
                 <div class="footer-colonne">
                     <h3>Liens rapides</h3>
                     <ul class="footer-liste">
-                        <li><a href="<?= SITE_URL ?>/public/index.php">Accueil</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/ecosysteme.php">Écosystème</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/pech.php">PECH</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/actualites.php">Actualités</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/contact.php">Contact</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/postuler.php">Postuler</a></li>
+                        <li><a href="<?= SITE_URL ?>/index">Accueil</a></li>
+                        <li><a href="<?= SITE_URL ?>/ecosysteme">Écosystème</a></li>
+                        <li><a href="<?= SITE_URL ?>/pech">PECH</a></li>
+                        <li><a href="<?= SITE_URL ?>/actualites">Actualités</a></li>
+                        <li><a href="<?= SITE_URL ?>/contact">Contact</a></li>
+                        <li><a href="<?= SITE_URL ?>/postuler">Postuler</a></li>
                     </ul>
                 </div>
 

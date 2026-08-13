@@ -39,19 +39,19 @@ $page_actuelle = basename($_SERVER['PHP_SELF'], '.php');
     <header class="header-principal">
         <div class="container">
             <div class="header-contenu">
-                <a href="<?= SITE_URL ?>/public/index.php" class="logo-lien">
+                <a href="<?= SITE_URL ?>/index" class="logo-lien">
                     <img src="<?= SITE_URL ?>/assets/images/logo.png" alt="Logo <?= SITE_NOM ?>" class="logo">
                 </a>
 
                 <!-- Navigation desktop -->
                 <nav class="nav-principal" aria-label="Navigation principale">
                     <ul class="nav-liste">
-                        <li><a href="<?= SITE_URL ?>/public/index.php" class="nav-lien <?= $page_actuelle === 'index' ? 'actif' : '' ?>">Accueil</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/ecosysteme.php" class="nav-lien <?= $page_actuelle === 'ecosysteme' ? 'actif' : '' ?>">Écosystème</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/pech.php" class="nav-lien <?= $page_actuelle === 'pech' ? 'actif' : '' ?>">PECH</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/actualites.php" class="nav-lien <?= $page_actuelle === 'actualites' ? 'actif' : '' ?>">Actualités</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/contact.php" class="nav-lien <?= $page_actuelle === 'contact' ? 'actif' : '' ?>">Contact</a></li>
-                        <li><a href="<?= SITE_URL ?>/public/postuler.php" class="btn-postuler">Postuler</a></li>
+                        <li><a href="<?= SITE_URL ?>/index" class="nav-lien <?= $page_actuelle === 'index' ? 'actif' : '' ?>">Accueil</a></li>
+                        <li><a href="<?= SITE_URL ?>/ecosysteme" class="nav-lien <?= $page_actuelle === 'ecosysteme' ? 'actif' : '' ?>">Écosystème</a></li>
+                        <li><a href="<?= SITE_URL ?>/pech" class="nav-lien <?= $page_actuelle === 'pech' ? 'actif' : '' ?>">PECH</a></li>
+                        <li><a href="<?= SITE_URL ?>/actualites" class="nav-lien <?= $page_actuelle === 'actualites' ? 'actif' : '' ?>">Actualités</a></li>
+                        <li><a href="<?= SITE_URL ?>/contact" class="nav-lien <?= $page_actuelle === 'contact' ? 'actif' : '' ?>">Contact</a></li>
+                        <li><a href="<?= SITE_URL ?>/postuler" class="btn-postuler">Postuler</a></li>
                     </ul>
                 </nav>
 
@@ -66,13 +66,13 @@ $page_actuelle = basename($_SERVER['PHP_SELF'], '.php');
             <!-- Navigation mobile -->
             <nav class="nav-mobile" aria-label="Navigation mobile">
                 <ul class="nav-liste">
-                    <li><a href="<?= SITE_URL ?>/public/index.php" class="nav-lien <?= $page_actuelle === 'index' ? 'actif' : '' ?>">Accueil</a></li>
-                    <li><a href="<?= SITE_URL ?>/public/ecosysteme.php" class="nav-lien <?= $page_actuelle === 'ecosysteme' ? 'actif' : '' ?>">Écosystème</a></li>
-                    <li><a href="<?= SITE_URL ?>/public/pech.php" class="nav-lien <?= $page_actuelle === 'pech' ? 'actif' : '' ?>">PECH</a></li>
-                    <li><a href="<?= SITE_URL ?>/public/actualites.php" class="nav-lien <?= $page_actuelle === 'actualites' ? 'actif' : '' ?>">Actualités</a></li>
-                    <li><a href="<?= SITE_URL ?>/public/contact.php" class="nav-lien <?= $page_actuelle === 'contact' ? 'actif' : '' ?>">Contact</a></li>
+                    <li><a href="<?= SITE_URL ?>/index" class="nav-lien <?= $page_actuelle === 'index' ? 'actif' : '' ?>">Accueil</a></li>
+                    <li><a href="<?= SITE_URL ?>/ecosysteme" class="nav-lien <?= $page_actuelle === 'ecosysteme' ? 'actif' : '' ?>">Écosystème</a></li>
+                    <li><a href="<?= SITE_URL ?>/pech" class="nav-lien <?= $page_actuelle === 'pech' ? 'actif' : '' ?>">PECH</a></li>
+                    <li><a href="<?= SITE_URL ?>/actualites" class="nav-lien <?= $page_actuelle === 'actualites' ? 'actif' : '' ?>">Actualités</a></li>
+                    <li><a href="<?= SITE_URL ?>/contact" class="nav-lien <?= $page_actuelle === 'contact' ? 'actif' : '' ?>">Contact</a></li>
                 </ul>
-                <a href="<?= SITE_URL ?>/public/postuler.php" class="btn-postuler">Postuler</a>
+                <a href="<?= SITE_URL ?>/postuler" class="btn-postuler">Postuler</a>
             </nav>
         </div>
     </header>

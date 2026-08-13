@@ -160,7 +160,7 @@ foreach ($evenements as $evenement) {
     <section class="cta-final">
         <div class="container">
             <h2 class="cta-titre">Rejoignez l'incubateur</h2>
-            <a href="<?= SITE_URL ?>/public/postuler.php" class="btn btn-primaire">Postuler maintenant</a>
+            <a href="<?= SITE_URL ?>/postuler" class="btn btn-primaire">Postuler maintenant</a>
         </div>
     </section>
 </main>
