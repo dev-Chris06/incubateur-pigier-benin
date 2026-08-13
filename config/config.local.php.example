@@ -1,0 +1,8 @@
+<?php
+
+// Copier ce fichier vers config.local.php et renseigner les valeurs de production.
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'nom_de_la_base');
+define('DB_USER', 'utilisateur_mysql');
+define('DB_PASS', 'mot_de_passe_mysql_solide');
+define('SITE_URL', 'https://www.votre-domaine.tld');

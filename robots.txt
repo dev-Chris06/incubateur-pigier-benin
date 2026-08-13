@@ -1,0 +1,20 @@
+# Robots.txt pour START PROJECT PIGIER-BÉNIN
+
+User-agent: *
+Allow: /
+
+# Chemins admin protégés
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /scripts/
+Disallow: /sql/
+
+# Fichiers privés
+Disallow: /uploads/
+
+# Pages dynamiques à limiter
+Disallow: /public/contact.php
+Disallow: /public/postuler.php
+
+Sitemap: http://localhost/incubateur-pigier/sitemap.xml
