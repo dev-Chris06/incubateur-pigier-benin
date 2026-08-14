@@ -132,7 +132,7 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
     <!-- Section Chiffre clé -->
     <section class="chiffre-cle">
         <div class="container">
-            <p class="chiffre-texte"><?= $chiffre_cle ? echapper($chiffre_cle) : '2 éditions du PECH, 12 projets finalistes, 6 lauréats en 2026' ?></p>
+            <p class="chiffre-texte"><?= $chiffre_cle ? echapper($chiffre_cle) : '+400 Etudiants accompagnés en 2 éditions du PECH, 24 projets finalistes, 12 lauréats, 2 Cohortes incubées, 1 Application fonctionnelle, 3 produits physiques lancés sur le marché, +10 Formateurs, Coachs et Mentors mobilisés' ?></p>
         </div>
     </section>
 
