@@ -132,7 +132,28 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
     <!-- Section Chiffre clé -->
     <section class="chiffre-cle">
         <div class="container">
-            <p class="chiffre-texte"><?= $chiffre_cle ? echapper($chiffre_cle) : '+400 Etudiants accompagnés en 2 éditions du PECH, 24 projets finalistes, 12 lauréats, 2 Cohortes incubées, 1 Application fonctionnelle, 3 produits physiques lancés sur le marché, +10 Formateurs, Coachs et Mentors mobilisés' ?></p>
+            <?php
+            $texte_brut = $chiffre_cle ? echapper($chiffre_cle) : '+400 Etudiants accompagnés en 2 éditions, 24 projets finalistes, 12 lauréats, 2 Cohortes incubées, 1 Application fonctionnelle, 3 produits physiques lancés sur le marché, +10 Formateurs, Coachs et Mentors mobilisés';
+            
+            // Découpage sur les virgules
+            $items = array_map('trim', explode(',', $texte_brut));
+            ?>
+            <div class="chiffre-grille">
+                <?php foreach ($items as $item): ?>
+                    <?php
+                    // Extraction du chiffre en début de segment (ex: "+400", "24", "12")
+                    preg_match('/^(\+?\d+)\s*(.*)$/', $item, $matches);
+                    ?>
+                    <div class="chiffre-item">
+                        <?php if (!empty($matches)): ?>
+                            <span class="chiffre-nombre"><?= $matches[1] ?></span>
+                            <span class="chiffre-label"><?= $matches[2] ?></span>
+                        <?php else: ?>
+                            <span class="chiffre-label"><?= $item ?></span>
+                        <?php endif; ?>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
     </section>
 
