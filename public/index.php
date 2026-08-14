@@ -133,7 +133,7 @@ $chiffre_cle = getContenu($pdo, 'accueil', 'chiffre_cle');
     <section class="chiffre-cle">
         <div class="container">
             <?php
-            $texte_brut = $chiffre_cle ? echapper($chiffre_cle) : '+400 Etudiants accompagnés en 2 éditions, 24 projets finalistes, 12 lauréats, 2 Cohortes incubées, 1 Application fonctionnelle, 3 produits physiques lancés sur le marché, +10 Formateurs, Coachs et Mentors mobilisés';
+            $texte_brut = $chiffre_cle ? echapper($chiffre_cle) : '+400 Etudiants accompagnés en 2 éditions, 24 projets finalistes, 12 lauréats, 2 Cohortes incubées, 1 Application fonctionnelle, 3 produits physiques lancés sur le marché, +10 Formateurs Coachs et Mentors mobilisés';
             
             // Découpage sur les virgules
             $items = array_map('trim', explode(',', $texte_brut));
