@@ -34,7 +34,7 @@ try {
     <section class="pech-intro">
         <div class="container">
             <h2 class="section-titre">Le PECH — Pigier Entrepreneurship Challenge</h2>
-            <p class="pech-intro-texte">Le PECH est le concours interne d'incubation et de financement destiné à propulser les initiatives entrepreneuriales des étudiants de PIGIER Bénin.</p>
+            <p class="pech-intro-texte">PECH est une compétition initié par la direction générale de l'école PIGIER-BENIN pour cultiver l'esprit entrepreneurial et promouvoir l'auto-emploi des apprenants.</p>
         </div>
     </section>
 
