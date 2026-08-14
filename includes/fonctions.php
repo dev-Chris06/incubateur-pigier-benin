@@ -293,7 +293,7 @@ function uploaderImage($fichier, $dossier = 'pech') {
     // Retourner le chemin relatif pour stockage en base
     return [
         'success' => true,
-        'chemin' => $dossier . '/' . $nomUnique,
+        'chemin' => 'uploads/' . $dossier . '/' . $nomUnique,
         'message' => 'Fichier uploadé avec succès.'
     ];
 }
